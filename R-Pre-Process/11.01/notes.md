@@ -33,6 +33,7 @@ Filtrācija atbild par rindu attēlošana, bet mēs vel izmantojam *str_detect* 
 
 ## PIPE saglabājam starp rādītājus
 
+
 ```
   {. ->> VID_NM_c }
 ```
@@ -118,4 +119,12 @@ dplyr::filter(str_detect(NACE,"[:alpha:]")==FALSE) %>%
   mutate("gads" = 2020)
   
   new_bind <-  bind_rows(VID_NM_2020, VID_NM_2021)
+```
+## Kā saglabāt rezultātu
+
+saglabājam tabulu kā dokumentu
+```
+ nm_proce %>% 
+    write.csv("nozares.csv", fileEncoding="windows-1257" ) %>% 
+    saveRDS("nozaresRDS.rds")
 ```
