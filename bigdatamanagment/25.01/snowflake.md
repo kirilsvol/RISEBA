@@ -17,6 +17,9 @@ Visi pushotie dati nonāk github, no github tie tiek integrēti un palaisti snow
 
 > Šeit varam pievienot resursu monitoru, lai nepārtērēt budžetu
 
+![image](https://github.com/user-attachments/assets/052574a3-6da1-4cd5-a4cc-195437c9ce51)
+
+
 
 **Svarīgākie uzstādījumi**
 
@@ -65,6 +68,9 @@ Visi pushotie dati nonāk github, no github tie tiek integrēti un palaisti snow
 
 ## Warehouse
 
+![image](https://github.com/user-attachments/assets/338c3591-bbd7-4e08-a516-5049e7c9974c)
+
+
 Datu glabātuve
 
 ### Pievienosim jaunu warehouse
@@ -104,6 +110,7 @@ Varam pievienot vēl lietotājus, mainīt lietotāju roles
 ## Accounts
 
 Projekta lietotāja pārvaldes logs. Nepieciešams pievienot 
+
 
 >
 >  **Locator** - Konta ID, pēc kā var atrast lietotāju.
