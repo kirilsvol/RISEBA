@@ -151,8 +151,15 @@ Izveidojama datubāzi  ` CREATE DATABASE riseba_db `, nepieciešams īslaicīgi 
 *Varma izmantot koda kompilācijai* - šeit varam mākonī kompilēt sažādu kodu
 ### Streamlit
 *streamlit* - tehniski ir pyton bibliotēka, mobilajām aplikācijām,  
+### Dashboard
+*dashboard* - vizualizācijas panelis
+### App packages
+*app packages* - izveidot jaunu aplikāciju kompleksu 
 
+## Data Products
 
+### Marketplace
+**market place**  - var ņemt datus 
 
 
 
