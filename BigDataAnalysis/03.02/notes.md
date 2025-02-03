@@ -1,7 +1,7 @@
-**Mācībspēks : ** Uģis Sprūdžš
-#Analītikas pielietošana uzņēmējdarbībā
+**Mācībspēks :** Uģis Sprūdžš
+# Analītikas pielietošana uzņēmējdarbībā
 
-###Kursa tematika - 
+### Kursa tematika - 
 
 3 virzieni, ka analītika izmantot biznesā /dažādas analītiskās metodes / praktiskie darbi ar datiem
 
