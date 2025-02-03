@@ -85,7 +85,33 @@ Klientu piesaiste ir atkarīga no uzņēmuma nozares, dažādiem klientiem ir da
 		- Trešo daļa netiek dota modelētājam, lai pārbaudīt modeli patstāvīgi
 
  4. **Model deployment** - 
- 5. **Model managment** -    
+ 5. **Model managment** -
+
+### Modeļa izstrādes bāzes koncepti
+- The business purpose of a predictive model is to use information available in the present to predict a future event or development (the
+outcome or “target variable”)
+- In the case of an acquisition model we use data about someone before they become a customer to predict the probability that they
+will become one; but first we use historical data to build the model
+ - During model development the observation window is the data time frame containing the predictor data (the “present”)
+ - The performance window is the data time frame in which the acquisition occurred (the “future”)
+ - When creating the model’s data set one must not permit information from the performance window to be among the predictor
+variables; failing to do so will make it impossible to deploy the model (this is known as the “future information” problem)
+- When there is a sufficient number of data points, model development data sets are usually partitioned into three subsets using a strict
+randomization process
+	- The largest is the “training data” – this is the raw material that the modeling methodology’s algorithm will learn from
+	- The “validation data”, also known as “test data”, typically 10%-20% of the original data, is used by the modeling methodology to
+calculate model accuracy on data not used (“unseen”) by the algorithm in its learning stage
+	- Validation data guards against situations where an algorithm becomes overly dependent on unusual instances in the training data
+that are infrequent in the overall data (this is known as “overfitting” the data and can be a problem with some highly iterative
+modeling methods, like Gradient Boosting Machines)
+	- The “hold-out data”, also 10%-20% of the original data, is not provided to the model development team and is used by
+management as a final check on the model’s validity; a model’s accuracy in the hold-out data should not be materially different
+from that obtained on the training and validation data
+- When there is insufficient data for a three-way partition there are two work-arounds:
+	- Instead of using a separate validation data set the algorithm can be instructed to use “N-fold cross-validation”, in this approach
+the training data is sliced into N pieces and model iterations are tested for uniformity across the N individual slices
+	- The validation and hold-out data sets are combined into one
+---
 
 
  
