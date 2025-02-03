@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1c811215-0737-41fd-b53a-aa51d0c8ed0d)**Mācībspēks :** Uģis Sprūdžš
+**Mācībspēks :** Uģis Sprūdžš
 # Analītikas pielietošana uzņēmējdarbībā
 
 ### Kursa tematika - 
@@ -41,9 +41,15 @@ Soļi analītikai **Gartners 2012.g**
 
 1. **Reach** - Nepieciešams atrast klients, saprast ir potenciālie klietnu un kā tos atrast?
 2. **Acquisition** - Klientu iegūšana / piesaiste, klients sāk interesēties par piedāvājumu.
+
 2.1 **Abandoment** - Pamešana, bez pirkuma veikšanas.
+
 3. **Conversion** - Konvertējam no potenciāla uz īstu klientu
+   
 3.1 **Attrition** - Klientu zaudēšanu.
+   
 4. **Retention** - Klienta uzturēšana. 
-4.1 **Churn** - 
+
+4.1 **Churn** - Klientu apgrozījums, 
+
 5. **Loyal** - Lojāla klienta iegušāna.
