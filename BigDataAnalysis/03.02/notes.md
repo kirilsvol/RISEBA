@@ -113,5 +113,27 @@ the training data is sliced into N pieces and model iterations are tested for un
 	- The validation and hold-out data sets are combined into one
 ---
 
+## Modeļa pieņemšana
 
- 
+![image](https://github.com/user-attachments/assets/d6363d89-4687-4518-81fe-1761b4c09188)
+
+Pēc modeļa izstrādes ir jāizveido parametri pēc kuriem noteikt modeļa precizitāti. Tam tiek izmantoti populāri metriki
+
+
+### Confusion matrix skaidrojums
+Datu masīvā katrai datu rindai tiek veikti predicitv mērījumi un blakus likti faktiskie iznākumi, intervāla no 0 - 100, Prognozes kodēja ja varbūtība ir no 0-50 tad par negatīvu iznakumu, bet 51-100 par pozitīvu iznākumu. Actual data gan ir binārs, kurā ir 0 vai 1
+- **Kļūdu matrics** (_Confusion Matrix_) - Modelis katrma iznākuma veido
+	- 1. Kvadrantā prognozē iznākumu un sakrīt
+   	- 2. Prognozē negatīvi, bet realitātē sanāca
+   	- 3. Pronozēja pozitīvi, bet realizēt nesanāca
+   	- 4. Prognozeja un nesanāca    
+### ROC (Receiver Operating Characteristics Curve)
+
+![image](https://github.com/user-attachments/assets/3721c7b3-4192-47f3-be1a-7eae96bd6c63)
+
+- Sadalam datus 100 sektoros
+- Līnija ir randoms, ka katrs iznākums ir 50/50
+- Zilā līnija ir modeļa kumulatīvais rezultāts, Mēs mēram laukumu no līnijas līdz melnajai līnijai, jo tas ir tuvāks 1, jo labāk.
+- 
+- 
+
