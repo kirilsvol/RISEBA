@@ -36,3 +36,4 @@ Git ignore - var likt iekšā tikai kodu un dokumentāciju
 > Upload your commits to main
 `git push origin main`
 
+## aasd
