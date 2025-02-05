@@ -47,4 +47,10 @@ Git ignore - var likt iekšā tikai kodu un dokumentāciju
 > combine together
 `git checkout -b TESTBRANCH`
 
-this is test branch
+> merging brancehe
+`git checkout main` #pārejam no test -> main
+`git merge test` #apvienojam branchus
+
+> pievienojam un izdzēšam branch
+`git branch -d hotfix`
+
