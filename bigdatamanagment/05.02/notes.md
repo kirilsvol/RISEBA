@@ -36,4 +36,15 @@ Git ignore - var likt iekšā tikai kodu un dokumentāciju
 > Upload your commits to main
 `git push origin main`
 
-## aasd
+## izveidojam jaunu branch
+
+> new brach
+`git branch BRANCHNAME' `
+
+> switch to new branch
+`git checkout BRANCHNAME`
+
+> combine together
+`git checkout -b TESTBRANCH`
+
+this is test branch
