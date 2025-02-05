@@ -36,5 +36,3 @@ Git ignore - var likt iekšā tikai kodu un dokumentāciju
 > Upload your commits to main
 `git push origin main`
 
-> Check the changes you have (staged/not staged)
-`git status`
