@@ -1,1 +1,0 @@
-# Strādājam ar SNOWFLAKE
